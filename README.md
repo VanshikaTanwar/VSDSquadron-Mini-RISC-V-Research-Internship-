@@ -40,11 +40,11 @@ BOARD SPECS:
 
 ```sudo apt-get install autoconf automake autotools-dev curl python3 libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev``` *make sure to install the dependencies*
 
-![gnu_dependencies](https://github.com/Nawras-Ahamed/VSD_Squadron_mini_Research/assets/50738659/3a354063-2d87-44c5-8b54-e2f13d2b1965)
+![gnu_dependencies]()
 
 ```git clone https://github.com/riscv/riscv-gnu-toolchain```
 
-![gnu_toolchain_clone](https://github.com/Nawras-Ahamed/VSD_Squadron_mini_Research/assets/50738659/760e3e42-8c07-4254-80a3-050e489ac42d)
+![gnu_toolchain_clone]()
 
 
 ## Create a opt dir
