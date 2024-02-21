@@ -4,6 +4,10 @@
 
 To learn more about the VSDSquadron Mini RISC-V internship projects, you have come to the right place. You will receive all the tools need to gain hands-on expertise with Mini RISC-V throughout the four weeks of this internship. Enjoy your educational experience!!
 
+VSDSQUADRON Mini Board 
+
+![VSDSQUADRON Mini Board]()
+
 BOARD SPECS:
 
 | CH32V003F4U6 chip with 32-bit RISC-V core based on RV32EC instruction set |
@@ -36,7 +40,11 @@ BOARD SPECS:
 
 ### CLONING RISC-V GNU TOOLCHAIN
 
+Step-1
+
 ```sudo apt install git-all```   # To install git
+
+![To install git ]()
 
 ```sudo apt-get install autoconf automake autotools-dev curl python3 libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev``` *make sure to install the dependencies*
 
@@ -50,7 +58,7 @@ BOARD SPECS:
 ## Create a opt dir
 ```mkdir /opt/riscv```  *try sudo incase of permission denial*
 
-In my case I created a driectory ```mkdir riscv``` and ``` chmod 777 home/nawras/riscv ```
+In my case I created a driectory ```mkdir riscv``` and ``` chmod 777 home/vanshikatanwar/riscv ```
 
 ## Config and make inside the risc-v gnu toolchain dir 
 
@@ -60,11 +68,3 @@ In my case ```./configure --prefix=/home/nawras/riscv```
 
 Then
 ```make``` **(Have patience)**
-|
-| External interrupts                                                        8 external interrupt edge detectors, but it only maps one external interrupt to 18 I/O ports |
-| PWM pins                                                                   14X                                                                                          |
-| Analog I/O pins                                                            10-bit ADC, PD0-PD7, PA1, PA2, PC4                                                           |
-| Digital I/O pins                                                           15                                                                                           |
-| Built-in LED Pin                                                           1X onboard user led (PD6)                                                                    |
-| USB 2.0 Type-C                                                            
-
