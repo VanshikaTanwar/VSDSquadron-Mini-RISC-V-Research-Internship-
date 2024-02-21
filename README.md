@@ -29,12 +29,6 @@ BOARD SPECS:
 
 <details>
     <summary> TASK 1 </summary>
-<details>
-    <summary> TASK 2 </summary>
-
-
-<details>
-    <summary> TASK 1 </summary>    
 
 1) install RISC-V GNU Toolchain 
 
@@ -140,6 +134,7 @@ sudo apt install gtkwave
 
 ![gtkwave](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/gtkwave_img1.png)
 
+
 <details>
     <summary> TASK 2 </summary>
 
@@ -181,6 +176,7 @@ Each bit , which is mentioned above have some meaning , in 32-bit format.
 ![R-type Instruction Format](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/r-type%20instruction%20format.png)
 
 
-
+Here, 5-bit fields can represent numbers 0-31, i.e., (2^5=32)
+while, 7-bit fields can represent numbers 0-128, i.e., (2^7=128) and similarly so on for other bits.
 
 
