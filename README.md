@@ -173,10 +173,12 @@ Each bit , which is mentioned above have some meaning , in 32-bit format.
 5- rd
 7- opcode
 
-![R-type Instruction Format](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/r-type%20instruction%20format.png)
+![R-type Instruction Format](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/r-type%20instruction%20format.png)
 
 
 Here, 5-bit fields can represent numbers 0-31, i.e., (2^5=32)
 while, 7-bit fields can represent numbers 0-128, i.e., (2^7=128) and similarly so on for other bits.
+
+
 
 
