@@ -29,6 +29,12 @@ BOARD SPECS:
 
 <details>
     <summary> TASK 1 </summary>
+<details>
+    <summary> TASK 2 </summary>
+
+
+<details>
+    <summary> TASK 1 </summary>    
 
 1) install RISC-V GNU Toolchain 
 
