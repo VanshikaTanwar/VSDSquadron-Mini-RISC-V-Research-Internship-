@@ -68,3 +68,11 @@ In my case ```./configure --prefix=/home/nawras/riscv```
 
 Then
 ```make``` **(Have patience)**
+
+
+### Installing YOSYS
+
+![yosys_img1](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/yosys_img1.png)
+
+
+
