@@ -134,7 +134,10 @@ sudo apt install gtkwave
 
 ![gtkwave](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/gtkwave_img1.png)
 
+<details>
+    <summary> TASK 2 </summary>
 
+--> To Determine that identify the instruction type and to also find out the exact 32 bit instruction code, based on it's instruction type. 
 
 ### Instruction type
 
@@ -169,7 +172,7 @@ Each bit , which is mentioned above have some meaning , in 32-bit format.
 5- rd
 7- opcode
 
-![R-type Instruction Format](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/r-type instruction format.png)
+![R-type Instruction Format](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/r-type%20instruction%20format.png)
 
 
 
