@@ -44,15 +44,17 @@ Step-1
 
 ```sudo apt install git-all```   # To install git
 
-![To install git ]()
+![To install git](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/gnu_img1.png)
+![To install git](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/gnu_img2.png)
 
 ```sudo apt-get install autoconf automake autotools-dev curl python3 libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev``` *make sure to install the dependencies*
 
-![gnu_dependencies]()
+![To install dependencies](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/gnu_img3.png)
+![To install dependencies](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/gnu_img4.png)
 
 ```git clone https://github.com/riscv/riscv-gnu-toolchain```
 
-![gnu_toolchain_clone]()
+![gnu_toolchain_clone](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/gnu_img5.png)
 
 
 ## Create a opt dir
@@ -64,13 +66,18 @@ In my case I created a driectory ```mkdir riscv``` and ``` chmod 777 home/vanshi
 
 ```./configure --prefix=/opt/riscv```  
 
-In my case ```./configure --prefix=/home/nawras/riscv```  
+In my case ```./configure --prefix=/home/vanshikatanwar/riscv``` 
+
+![gnu_toolchain_clone](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/gnu_img6.png)
+
+![gnu_toolchain_clone](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/gnu_img7.png)
+
 
 Then
 ```make``` **(Have patience)**
+![gnu_toolchain_clone](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/gnu_img8.png)
 
-
-### Installing YOSYS
+### 2. Installing YOSYS
  ```git clone https://github.com/YosysHQ/yosys.git```
  
  ```cd yosys```
@@ -90,6 +97,42 @@ Then
 ![yosys_img3](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/yosys_img3.png)
 ![yosys_img4](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/yosys_img4.png)
 ![yosys_img5](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/yosys_img5.png)
+
+```
+$ make config-gcc
+```
+
+![yosys_img2](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/yosys_img6.png)
+![yosys_img3](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/yosys_img7.png)
+
+```
+$ make 
+$ sudo make install
+```
+
+![yosys_img4](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/yosys_img8.png)
+![yosys_img5](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/yosys_img9.png)
+![yosys_img4](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/yosys_img10.png)
+![yosys_img5](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/yosys_img11.png)
+![yosys_img4](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/yosys_img12.png)
+
+
+
+### 3. Installing iVerilog
+
+```sudo apt-get install iverilog```
+
+![iverilog](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/iverilog_img1.png)
+
+### 4. Installing GTKwave
+
+```sudo apt update```
+
+```
+sudo apt install gtkwave
+```
+
+![gtkwave](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/gtkwave_img1.png)
 
 
 
