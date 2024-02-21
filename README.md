@@ -182,3 +182,46 @@ while, 7-bit fields can represent numbers 0-128, i.e., (2^7=128) and similarly s
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## References
+
+- [References]()
+- 
+
+
