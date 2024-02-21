@@ -136,5 +136,42 @@ sudo apt install gtkwave
 
 
 
+### Instruction type
+
+There are 6 Instruction Formats . These are :- 
+
+(i) R-Type Format or R-Type Instruction - This type of instruction includes registers. These instructions are basically using 3 register inputs , - add,xor, mul.etc. (Basically, it's contains all arithmetic and logic operations).
+
+(ii) I-Format or I-Type Instruction - These are the instructions with immediates , loads like, 
+-addi, lw, jalr, slli.
+
+(iii) S-Format or S-Type Instruction
+(iv) SB-Format or SB-Type Instruction
+(v) U-Format or U-Type Instruction
+(vi) UJ-Format or UJ-Type Instruction
+
+
+In this internship, we are proceeding with R-type Instruction.
+As, ISA type is RISC-V in VSDSQUADRON Board.
+
+This R-Type Instruction is 32-bit Long and have the following formats.
+--> This 32bit long format are containing total of 2 bits, and these bits are divided into some parts .
+These parts are known as fields. Hence, this 32 bit is containing some fields . And to define these fileds, it contains following bit of numbers. 
+
+These are, 755357.
+Each bit , which is mentioned above have some meaning , in 32-bit format. 
+7+5+5+3+5+7=32.
+
+7- Funct7
+5- rs2
+5- rs1
+3- Funct3
+5- rd
+7- opcode
+
+![R-type Instruction Format](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/r-type instruction format.png)
+
+
+
 
 
