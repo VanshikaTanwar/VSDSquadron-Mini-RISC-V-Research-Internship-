@@ -184,12 +184,28 @@ while, 7-bit fields can represent numbers 0-128, i.e., (2^7=128) and similarly s
 
 
 
+The initial section in the R-type instruction format is referred to as the opcode field, which can also be called the operation code. This 7-bit opcode (bits 0-6) indicates the instruction format type, like R-type, I-type, U-type and so on. The opcode describes which instruction format is being used.
+
+The next part in the R-type instruction format is referred to as the rd field. Rd in the "rd field" means Destination Register. This rd field shows where the result of the operation is kept. The length of the rd field is 5 bits (7-11).
+
+The funct3 field comes after the destination register and is 3 bits long, spanning from bit 12 to bit 14. This field provides information about the type of operation being performed, such as whether it is addition, subtraction, or some other logical operation. The purpose of the funct3 field is to encode the operation so the processor knows what type of action to take on the data. While the overall text structure flows from describing the location of the field, to its length, and then its purpose, the key ideas have been reworded to avoid simply repeating the original phrasing.
 
 
+There are two registers called rs1 and rs2, each 5 bits long. Rs1 spans bits 15-19 and rs2 spans bits 20-24.
+
+The funct7 field is the last field in the R-type instruction format. It specifies the operation type, like shift or multiply. Both the funct3 and funct7 fields describe the operation, depending on the instruction format.
+
+So , if one will conclude it now for the instruction which we are going to execute during this learning is 
+Add r6,r1,r2.
+Now, if we compare it with the 32 bit instruction format ...
+It means that ,
+r6 --> Rd (destination register) 
+r1--> rs1. (source register 1)[input 1]
+r2--> rs2(source register 2) [input 2]
 
 
-
-
+r6=r1+r2
+ie., rd=rs1+rs2
 
 
 
