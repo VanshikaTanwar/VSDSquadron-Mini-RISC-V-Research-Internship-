@@ -227,6 +227,24 @@ ie., rd=rs1+rs2
 
 Performing C based lab.
 
+C code sum of no. 1 to n 
+
+
+#include<stdio.h>
+int main() {
+  int sum=0, i=1, n=100;
+  for(i = 1; i <= n; ++i){
+    sum += 1;
+  }
+  printf("Sum of numbers from 1 to %d is %d \n",n,sum);
+  return 0;
+}
+
+
+
+
+![R-type Instruction Format](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/r-type%20instruction%20format.png
+
 
 
 
