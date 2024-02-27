@@ -221,6 +221,13 @@ ie., rd=rs1+rs2
 
 
 
+<details>
+    <summary> TASK 3 </summary>
+
+
+Performing C based lab.
+
+
 
 
 
