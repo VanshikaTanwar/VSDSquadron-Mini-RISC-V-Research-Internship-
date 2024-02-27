@@ -243,7 +243,7 @@ int main() {
 
 
 
-![R-type Instruction Format](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/r-type%20instruction%20format.png
+![gcc compiler ss](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/IMG-20240227-WA0001.jpg)
 
 
 
