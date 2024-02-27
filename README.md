@@ -249,7 +249,7 @@ int main() {
 
 
 
-
+![gcc compiler ss](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/IMG-20240227-WA0005.jpg)
 
 
 
