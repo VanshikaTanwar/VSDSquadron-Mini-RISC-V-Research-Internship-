@@ -262,7 +262,15 @@ int main() {
     <summary> TASK 4 </summary>
 
     
+![task4 ss1](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/task3-ss1.png)
 
+![task4 ss2](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/task3-ss2.png)
+
+![task4 ss2.1](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/task3-ss2.1.png)
+
+![task4 ss2.2](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/task3-ss2.2.png)
+
+![task4 ss3](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/task3-ss3.png)
 
 
 
