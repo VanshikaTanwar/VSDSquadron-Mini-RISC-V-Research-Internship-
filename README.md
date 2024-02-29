@@ -260,6 +260,7 @@ int main() {
 
 <details>
     <summary> TASK 4 </summary>
+    observation with -O1 and -Ofast. Upload snapshot of compiled C Code, RISC-V Objdmp
 
     
 ![task4 ss1](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/task3-ss1.png)
