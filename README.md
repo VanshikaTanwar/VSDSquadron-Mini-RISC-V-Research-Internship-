@@ -229,7 +229,7 @@ Performing C based lab.
 
 C code sum of no. 1 to n 
 
-
+`
 #include<stdio.h>
 int main() {
   int sum=0, i=1, n=100;
@@ -238,7 +238,7 @@ int main() {
   }
   printf("Sum of numbers from 1 to %d is %d \n",n,sum);
   return 0;
-}
+}`
 
 
 
@@ -254,6 +254,14 @@ int main() {
 
 
 ![gcc compiler ss](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/IMG_20240227_171202.jpg)
+
+
+
+
+<details>
+    <summary> TASK 4 </summary>
+
+    
 
 
 
