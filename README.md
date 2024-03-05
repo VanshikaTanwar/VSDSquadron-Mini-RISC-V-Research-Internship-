@@ -276,6 +276,19 @@ int main() {
 
 
 
+<details>
+    <summary> TASK 5 </summary>
+
+To simulate and run the Verilog code, enter the following commands in your terminal.
+
+` $ iverilog -o vanshika_verilog vanshika_verilog.v vanshika_verilog_tb.v
+$ ./vanshika_verilog
+
+`
+
+
+To see the output waveform in gtkwave, enter the following commands in your terminal.
+$ gtkwave vanshika_verilog.vcd
 
 ## References
 
