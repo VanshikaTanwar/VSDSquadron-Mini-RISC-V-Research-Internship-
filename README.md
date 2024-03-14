@@ -287,10 +287,10 @@ $ ./vanshika_verilog
 
 `
 
-![task5_verilog_simulation](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/verilog%20simulation%201.png)
+![task5_verilog_simulation]()
 
 
-![task5_verilog_simulation2](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/verilog%20simulation%202.png)
+![task5_verilog_simulation2]()
 
 
 
@@ -301,12 +301,12 @@ $ gtkwave vanshika_verilog.vcd
 
 
 
-![task5_verilog_simulation3](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/verilog%20simulation%203_add.png)
+![task5_verilog_simulation3]()
 
 
-![task5_verilog_simulation4](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/verilog%20simulation%204_add.png)
+![task5_verilog_simulation4]()
 
-![task5_verilog_simulation5](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/verilog%20simulation%206%20add.png)
+![task5_verilog_simulation5]()
 
 
 ## References
