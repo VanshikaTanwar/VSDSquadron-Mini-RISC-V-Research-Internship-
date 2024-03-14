@@ -299,7 +299,7 @@ To see the output waveform in gtkwave, enter the following commands in your term
 
 ![task5_verilog_simulation3](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/task_5_gtkwave%202.png)
 
-
+Add Operation 
 ![task5_verilog_simulation4](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/task%205%2002.png)
 
 ![task5_verilog_simulation5](https://github.com/VanshikaTanwar/VSDSquadron-Mini-RISC-V-Research-Internship-/blob/main/IMG/task%205%2003%20.png)
